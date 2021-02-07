@@ -1,0 +1,29 @@
+.items {
+  text-align: center;
+  background-color: white;
+  border-radius: 6px;
+  margin-top: 25px;
+  height: 31rem;
+  box-shadow: 0px 5px 7px 0px rgba(0, 0, 0, 0.24);
+}
+.about_item h4 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.book_poster img {
+  width: 240px;
+  padding-top: 20px;
+}
+
+.item_overview {
+  text-align: left;
+  margin: 5px 0;
+}
+
+.submission p {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: gray;
+}

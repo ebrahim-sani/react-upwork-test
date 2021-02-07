@@ -1,0 +1,11 @@
+.books_list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+}
+.head_title {
+  text-align: center;
+  margin: 20px 0 5px;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
