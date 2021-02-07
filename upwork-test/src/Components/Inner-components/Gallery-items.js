@@ -1,12 +1,14 @@
 import React from "react";
 import "./Gallery-items.css";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
+import FavoriteBorderIcon from "@material-ui/icons/FavoriteBorder";
+import CommentIcon from "@material-ui/icons/Comment";
+import ShareIcon from "@material-ui/icons/Share";
 
 function GalleryItem({
   book_image,
   book_name,
   date_submitted,
-  submitted_by,
   votes,
   profile_img,
 }) {
@@ -19,12 +21,14 @@ function GalleryItem({
         <div className="about_item">
           <h4>{book_name}</h4>
           <p>Date Submitted - {date_submitted}</p>
-        </div>
-        <div className="submission">
           <p>
-            Submitted by:
-            <AccountCircleIcon src={profile_img} />
+            By: <AccountCircleIcon src={profile_img} />
           </p>
+        </div>
+        <div className="icons">
+          <FavoriteBorderIcon className="icon" />
+          <CommentIcon className="icon" />
+          <ShareIcon />
         </div>
       </div>
     </div>
