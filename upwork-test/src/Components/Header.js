@@ -2,6 +2,7 @@ import React from "react";
 import { Button } from "@material-ui/core";
 import "../Styles/Header.css";
 import { makeStyles } from "@material-ui/core/styles";
+// import { useHistory } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
   button: {
@@ -13,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
 
 function Header() {
   const classes = useStyles();
+  // const history = useHistory();
 
   return (
     <div className="header">
@@ -25,6 +27,7 @@ function Header() {
           variant="contained"
           color="secondary"
           className={classes.button}
+          href="/add-new-book"
         >
           Add Book
         </Button>
