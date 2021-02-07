@@ -1,9 +1,12 @@
 import "./App.css";
+import Gallery from "./Components/Gallery";
+import Header from "./Components/Header";
 
 function App() {
   return (
     <div className="app">
-      <h3>Ready to get started</h3>
+      <Header />
+      <Gallery />
     </div>
   );
 }
